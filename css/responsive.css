@@ -1,0 +1,176 @@
+
+@media (min-width: 992px) {
+  
+
+    .button:hover {
+      background-color: #1abc9c;
+      border-radius: 50px; 
+    }
+     .subscribe__button:hover {
+      background-color: #1abc9c; 
+    } 
+  }
+  @media (max-width: 992px) {
+    
+    .nav-link-photoapp {
+      margin-left: 0; 
+    }
+  
+    .nav-link-design {
+      margin-right: 0; 
+    }
+  
+  
+    .nav-link {
+      margin-top: 0;
+      padding: 0; 
+    }
+  
+    .nav-item {
+      height: 50px;
+      line-height: 50px; 
+    }
+  
+    .nav-list {
+      text-align: center;
+      margin-top: 10px;
+     }
+  
+  
+  
+    .img-box-second {
+      position: static;
+     }
+  
+  
+    .image-box-first {
+      margin-bottom: 20px; 
+    }
+  
+    .carousel-col {
+      padding-left: 0;
+      padding-right: 0; 
+    }
+  
+    .image-box {
+      max-width: 100%; 
+    }
+  
+    .img-box {
+      max-width: 100%;
+      max-height: 100%; 
+    } 
+  
+    .photoapp {
+      height: 692px; 
+    }
+  
+    .photoapp-container {
+      background-position: right 50px; 
+    } 
+  }
+  @media (max-width: 768px) {
+    .navigation ul li a {
+      display: inline;
+    }
+    .photoapp {
+      height: 792px; 
+    }
+  
+    .photoapp-container {
+      background-position: 40% 150px; 
+    } 
+    .photoapp {
+      height: 792px; 
+    }
+  
+    .photoapp-container {
+      background-position: 40% 150px;
+     } 
+    .design-container {
+      padding: 64px 64px 0 64px; 
+    }
+  
+    .design-content {
+      margin-bottom: 50px;
+     }
+  
+    
+    .design-button {
+      margin-top: 41px; 
+    }
+  
+   
+    .design-paragraph {
+      margin-top: 41px;
+     }
+  
+    .community-box {
+      margin-bottom: 50px; 
+    }
+  
+    .community-container {
+      padding: 100px 50px; 
+    }
+  
+    .design-content {
+      padding: 0 15px; 
+    } 
+  
+    .first-button {
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 30px; 
+    }
+  
+    .second-button {
+      margin-right: 50px;
+      margin-left: 50px; 
+    }
+  
+    .footer-logo {
+      position: static;
+      margin-bottom: 30px; 
+    }
+  
+    .footer-container {
+      padding: 50px; 
+    } 
+    }
+  
+  
+  @media (max-width: 480px) {
+    .navigation ul li a {
+      display: none;
+    }
+    .photoapp {
+      height: 892px;
+     }
+  
+    .photoapp-container {
+      background-position: 40% 340px; 
+    }
+  
+    .design-carousel-item {
+      padding: 0 80px; 
+    }
+  
+    .subscribe-input {
+      padding-left: 12px; 
+    }
+          .subscribe__input::placeholder {
+        font-size: 14px;
+        letter-spacing: 1px; 
+      } 
+    }
+  
+  @media (max-width: 360px) {
+    .photoapp {
+      height: 892px; 
+    }
+  
+    .photoapp-container {
+      background-position: 40% 450px; 
+    } 
+  }
+  
