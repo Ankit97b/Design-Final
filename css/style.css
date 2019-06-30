@@ -15,6 +15,20 @@ a {
   padding: 0; 
 }
 
+@font-face {
+  font-family: 'Gotham--bold';
+  src: url("../font_face/gotham-rounded/GothamRoundedBold.ttf"); 
+}
+@font-face {
+  font-family: 'Gotham--book';
+  src: url("../font_face/gotham-rounded-book/GothamRoundedBook_21018.ttf"); 
+}
+@font-face {
+  font-family: 'Gotham--medium';
+  src: url("../font_face/gotham-rounded-medium/GothamRounded-Medium.otf"); 
+}
+
+
 /* Header */
 .header {
   width: 100%;
