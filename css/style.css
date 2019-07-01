@@ -13,6 +13,11 @@ a {
 .container {
   max-width: 1280px;
   padding: 0; 
+ 
+}
+.whole-container {
+  width:100%;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -47,49 +52,58 @@ a {
   transition: color 0.5s; 
 }
   .navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover {
+    
     color: #16a085; 
   }
-
-.nav {
-  background-color: transparent;
-  height: 122px;
-  
- }
+ul.navbar-navig {
+  display: inline-block;
+}
  .navigation {
-   margin-left:250px;
+   margin-left:272px;
+   margin-right:249px;
  }
- .navbar {
-   display:inline;
+ .navigation-container {
+   max-width:1280px;
+   
  }
+
 
 .nav-link {
-  margin-top: 57px; 
+  margin-top: 73px; 
+ 
 }
 
-.nav-link-photoapp {
-  margin-left: 51px; 
+
+.nav-link-photo {
+  margin-left:67px; 
+
 }
+
+
 
 .nav-link-logo {
-  margin-top: 32px;
-  margin-left: 86px;
-  margin-right: 82px;
+  margin-top: 40px;
+  margin-left: 102px;
+  margin-right: 98px;
  }
 
+
 .nav-link-design {
-  margin-right: 63px; 
+  margin-right: 80px; 
 }
 
-/* --> Had-middle*/
-.head-middle {
-  text-align:center;
-  margin-top:150px;
-}
-.hero-middle-content {
+/* --> Head-middle*/
+
+.head-middle-content {
   text-align: center; 
+  margin-top:248px;
+  margin-left:391px;
+  margin-right: 390px;
+  
 }
 
 .head-middle-heading {
+  margin-bottom:20px; 
   color: #ffffff;
   font-size: 36px;
   letter-spacing: 5px;
@@ -102,7 +116,7 @@ a {
   letter-spacing: 2.5px;
   font-size: 16px;
   font-family: "Gotham--medium";
-  margin-top: 20px; 
+  margin-bottom: 30px; 
 }
 
 .button {
@@ -116,8 +130,9 @@ a {
   font-family: "Gotham--bold";
   font-size: 12px;
   letter-spacing: 2px;
-  margin-top: 48px;
   border-radius: 4px;
+  
+   
    }
 
 .button:focus {
@@ -127,13 +142,14 @@ a {
 
 .head-button {
   width: 166px;
-  margin-top: 25px; 
+  margin-top: 30px; 
 }
 
 .head-icons {
   height: 62px;
   text-align:center;
-  margin-top:250px;
+  margin-top:222px;
+  margin-bottom:25px;
  }
 
 .icons-content {
@@ -143,7 +159,7 @@ a {
   transition: color 0.5s; 
 }
 .social-link {
-  padding-right: 12px;
+  padding-right: 16px;
   color: #ffffff;
 }
   .social-link:hover, .social__link:focus {
@@ -158,6 +174,8 @@ a {
 /* Photoapp */
 .photoapp {
   height: 492px;
+  margin-top:111px;
+  margin-left: 128px; 
   width: 100%;
   background-color: #ffffff; 
 }
@@ -167,14 +185,10 @@ a {
   height: 100%;
   background-repeat: no-repeat;
   background-position: right -70px;
- }
+}
 
-.photoapp-content {
-  margin-left: 128px; }
-  .photoapp-heading {
-    margin-top:100px;
-  }
 
+ 
 .heading {
   font-family: "Gotham--bold";
   color: #16a085;
@@ -186,7 +200,8 @@ a {
 }
 
 .photoapp-paragraph {
-  margin-top: 48px;
+  margin-top: 51px;
+  margin-bottom: 49px;
   font-family: "Gotham--book";
   max-width: 450px;
   line-height: 24px;
@@ -200,10 +215,12 @@ a {
 }
 .design-content {
   float:right;
+  padding-right:81px;
 }
 
 .design-paragraph {
- margin-top: 48px;
+ margin-top: 44px;
+ margin-bottom:44px; 
  font-family: "Gotham--book";
  max-width: 450px;
  line-height: 24px;
@@ -211,25 +228,24 @@ a {
 }
 
 .design-container {
-margin-left:150px;
-margin-top: 60px;
-margin-right:180px;
-padding-right: 150px;
-
+margin-left:124px;
+margin-top: 144px;
 }
+
 
 
 /* Community */
 .community {
   width: 100%;
+  
   background-color: #f5f6f7; 
 }
 
 .community-container {
   min-height: 485px;
-  padding-top: 80px; 
   background: #ffffff;
 }
+
 
 .carousel-col {
   padding-left: 64px;
@@ -239,26 +255,19 @@ padding-right: 150px;
 .img-box {
   max-width: 371px;
   max-height: 243px;
-  padding-right: 20px;
+  
   
  }
 
 .image-box {
-  padding-left: 15px;
+  padding-left: 24px;
   max-width: 400px;
    }
 
-.img-box-second {
- 
-  right: 0; 
-}
 
-.community-carousel {
-  max-width: 750px; 
-}
 
-.community-arrow {
-  max-width: 750px;
+
+.community-arrow{
   margin-bottom: 5px;
   
 
@@ -276,15 +285,9 @@ padding-right: 150px;
     
   }
 
-.community-content {
-  text-align: center;
-  width: 100%;
-  min-height: 176px; 
-}
 
-.text-col {
-  padding: 0; 
-}
+
+
 
 .community-row {
   width: 100%;
@@ -292,24 +295,34 @@ padding-right: 150px;
   margin-left: 0; 
 }
 
-  .community-content-wrapper {
+  .community-content {
     float:left;
-    padding-left:140px;
-    padding-top:50px;
+    margin-left:128px;
+    margin-top:166px;
+    margin-right:81px;
   }
   .community-right-wrapper {
     float:right;
-    margin-left:80px;
+    margin-top:122px;
+    margin-right:128px;
+   
     
+  }
+  .green-logo {
+    
+  
+    padding-left: 54px;
+    padding-right: 48px;
+    padding-bottom: 31px;
   }
 
 .community-heading {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 32px;
+ 
   font-family: "Gotham--bold";
-  margin-top: 32px;
+ 
   color: #373737;
  }
 
@@ -327,12 +340,14 @@ padding-right: 150px;
 
 /* Subscribe */
 .subscribe {
-  width: 100%;
+  width:100%;
   height: 790px;
   background-image: url("../images/subscribe.jpg");
   background-attachment: fixed;
-  background-size: cover;
-  background-position: center; 
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+   margin-top: 120px;
   
 }
 
@@ -343,7 +358,10 @@ padding-right: 150px;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align:center;
-  padding-top: 300px;
+  padding-top: 350px;
+  padding-left: 404px;
+  padding-right: 404px;
+  
  }
 
 .subscribe-form {
@@ -353,6 +371,7 @@ padding-right: 150px;
 .subscribe-input-group {
   max-width: 344px;
   margin: 0 auto; 
+  padding-bottom: 326px;
 }
 
 .subscribe-input {
@@ -378,7 +397,7 @@ padding-right: 150px;
   }
 
 .subscribe__content {
-  padding: 50px;
+
   line-height: 30px;
   text-align: center; 
 }
@@ -404,7 +423,7 @@ padding-right: 150px;
   min-height: 396px;
  text-align:center; 
  background: #ffffff;
- margin-top:100px;
+ margin-top:90px;
 }
 
 .download-heading {
@@ -416,24 +435,22 @@ padding-right: 150px;
 }
 
 .download-content {
-  margin: 50px 100px; 
+ margin-left:220px; 
+ margin-right:220px;
 }
 
 .download-paragraph {
-  font-size: 12px;
+  font-size: 10px;
   text-align:center;
-  margin-right:-20px;
   text-transform: uppercase;
   font-family: "Gotham--medium";
   color: #373737;
   letter-spacing: 2px;
-  margin: 17px 50px 0 70px;
-  max-width: 870px;
   line-height: 22px; 
 }
 
 .download-buttons {
-  margin-top: 48px; 
+  margin-top: 46px; 
 }
 
 .first-button {
@@ -450,6 +467,7 @@ padding-right: 150px;
 
 .button-left {
   background-color: #1abc9c;
+  color:#ffffff;
   text-transform: uppercase;
   width: 242px;
   height: 56px;
@@ -481,11 +499,13 @@ padding-right: 150px;
 
 .button-right {
   background-color: #16a085;
+  color:#ffffff;
   width: 56px;
   height: 56px; }
   .button-right i {
     font-size: 28px; 
   }
+  
 
 /* Footer */
 .footer {
@@ -494,7 +514,7 @@ padding-right: 150px;
 
 .footer-container {
   position: relative;
-  min-height: 132px;
+  min-height: 130px;
   padding-top: 46px;
   padding-left: 128px; 
 }
@@ -528,7 +548,7 @@ padding-right: 150px;
 }
 
 .footer-paragraph {
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Gotham--bold";
   color: #373737;
   letter-spacing: 2px;

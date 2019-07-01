@@ -3,68 +3,71 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Phototime</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
 		integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css"
+	    <link rel="stylesheet" type="text/css"
 		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+	
+
 </head>
 
 <body>
+	<div class="whole-container clearfix">
 
-	<header class="header" id="nav-header">
+		<header class="header">
 
-		<nav class="navbar navbar-expand-lg  nav">
-			<div class="container">
+			<div class="navbar navbar-expand-lg  nav">
+				<div class="container">
 
-				<div class="navigation">
-					<ul class="navbar-nav nav-list">
-						<li class="nav-item ">
-							<a class="nav-link nav__link" href="#">home</a>
-						</li>
-						<li class="nav-item ">
-							<a class="nav-link  nav-link-photoapp" href="#">photoapp</a>
-						</li>
-						<li class="nav-item nav-item-logo">
-							<a class="nav-link nav-link nav-link-logo" href="nav-header">
-								<img src="images/logo.png" alt="Phototime">
-							</a>
-						</li>
-						<li class="nav-item nav__item">
-							<a class="nav-link  nav-link-design" href="#">design</a>
-						</li>
-						<li class="nav-item ">
-							<a class="nav-link " href="#">download</a>
-						</li>
+					<div class="navigation">
+						<ul class="navbar-nav nav-list">
+							<li class="nav-item ">
+								<a class="nav-link nav-link-home" href="#">home</a>
+							</li>
+							<li class="nav-item ">
+								<a class="nav-link  nav-link-photo" href="#">photoapp</a>
+							</li>
+							<li class="nav-item nav-item-logo">
+								<a class="nav-link nav-link nav-link-logo" href="nav-header">
+									<img src="images/logo.png" alt="Phototime">
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link  nav-link-design" href="#">design</a>
+							</li>
+							<li class="nav-item ">
+								<a class="nav-link nav-link-download" href="#">download</a>
+							</li>
 
-					</ul>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</nav>
 
-		<div class="head-middle">
+
 			<div class="head-middle-content">
 				<h1 class="head-middle-heading">your life , a photo</h1>
 				<p class="head-middle-paragraph">print your life in a simple photo</p>
 				<button class="button head-button" type="button">get started</button>
 			</div>
-		</div>
-		<div class="head-icons">
-			<div class="icons-content">
-				<a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
-				<a href="#" class="social-link"><i class="fa fa-flickr"></i></a>
-				<a href="#" class="social-link"><i class="fa fa-dribbble"></i></a>
-			</div>
-		</div>
-	</header>
 
-	<div>
-		<div class="photoapp">
+			<div class="head-icons">
+				<div class="icons-content">
+					<a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="social-link"><i class="fa fa-flickr"></i></a>
+					<a href="#" class="social-link"><i class="fa fa-dribbble"></i></a>
+				</div>
+			</div>
+		</header>
+
+
+		<div class="photoapp ">
 			<div class="photoapp-container container">
 				<div class="photoapp-content">
 					<h2 class="heading photoapp-heading">Rappresent your life with a simple photo</h2>
@@ -77,17 +80,25 @@
 		</div>
 		<div class="design-wrapper">
 			<div class="design-container container clearfix">
-				<div class="design-left-image">
+				<div class="design-left-wrapper">
+				<div class="design-left-image ">
 					<img src="images/phone1.png" class="green-phone">
 				</div>
 				<div class="design-left-image ">
-						<img src="images/phone2.png" class="green-phone">
+					<img src="images/phone2.png" class="green-phone">
 				</div>
 				<div class="design-left-image ">
-							<img src="images/phone1.png" class="green-phone">
+					<img src="images/phone3.png" class="green-phone">
 				</div>
+				<div class="design-left-image ">
+					<img src="images/phone5.png" class="green-phone">
+				</div>
+				<div class="design-left-image ">
+					<img src="images/phone2.png" class="green-phone">
+				</div>
+			</div>
 				<div class="design-content">
-					<h2 class="heading">Design</h2>
+					<h2 class="heading design-heading">Design</h2>
 					<p class="design-paragraph">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do
 						eiusmod tempor incididunt ut labore et dolore<br> magna aliqua. Ut enim ad
@@ -96,64 +107,68 @@
 					</p>
 					<button class="design-button button">Learn More</button>
 
-
 				</div>
-
 			</div>
 		</div>
 
 
-		<div class="community">
-			<div class="community-container container ">
-				<div class="row community-row clearfix">
-					<div class="community-content-wrapper">
-						<div class="community-content">
-							<div class="community-box">
-								<img src="images/logo-green.png" alt="Logo">
-								<h2 class="community-heading">Our community</h2>
-								<p class="community-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="community-right-wrapper">
-						<div class="community-arrow clearfix ">
-							<a class="community-arrow-left" href="#carouselCommunityControls">
+
+
+
+				<div class="community">
+					<div class="community-container container ">
+						<div class="row community-row clearfix">
+							<div class="community-content">
 								
-								<i id="design-left" class="fa fa-angle-left leftArrowI"></i>
 
-							</a>
-							<a class=" community-arrow-left" href="#carouselCommunityControls" >
-								<i id="design-right" class="fa fa-angle-right rightArrowI"></i>
+									<img src="images/logo-green.png" class="green-logo" alt="Logo">
+									<h2 class="community-heading">Our community</h2>
+									<p class="community-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing
+										elit.
+									</p>
 
-							</a>
-						</div>
-						<div id="carouselCommunityControls" class="carousel slide community-carousel">
-							<div class="carousel-inner">
-								<div class="carousel-item community-carousel-item active">
-									<div class="row">
-										<div class=" image-box image-box-first">
-											<div class="img-box">
-												<img src="images/img1.jpg" alt="First image">
-											</div>
-										</div>
-										<div class=" image-box">
-											<div class="img-box img-box-second">
-												<img src="images/img2.jpg" alt="First image">
-											</div>
-										</div>
-									</div>
+								
+							</div>
+							<div class="community-right-wrapper">
+								<div class="community-arrow clearfix ">
+									<a class="community-arrow-left" href="#carouselCommunityControls">
+
+										<i id="design-left" class="fa fa-angle-left leftArrowI"></i>
+
+									</a>
+									<a class=" community-arrow-left" href="#carouselCommunityControls">
+										<i id="design-right" class="fa fa-angle-right rightArrowI"></i>
+
+									</a>
 								</div>
-								<div class="carousel-item community-carousel-item">
-									<div class="row">
-										<div class=" image-box image-box-first">
-											<div class="img-box img-box-right">
-												<img class="" src="images/img1.jpg" alt="First image">
+								<div id="carouselCommunityControls" class="carousel slide community-carousel">
+									<div class="carousel-inner">
+										<div class="carousel-item community-carousel-item active">
+											<div class="row">
+												<div class=" image-box image-box-first">
+													<div class="img-box">
+														<img src="images/img1.jpg" alt="First image">
+													</div>
+												</div>
+												<div class=" image-box">
+													<div class="img-box img-box-second">
+														<img src="images/img2.jpg" alt="First image">
+													</div>
+												</div>
 											</div>
 										</div>
-										<div class=" image-box">
-											<div class="img-box img-box-second img-box-right">
-												<img class="" src="images/img2.jpg" alt="First image">
+										<div class="carousel-item community-carousel-item">
+											<div class="row">
+												<div class=" image-box image-box-first">
+													<div class="img-box img-box-right">
+														<img class="" src="images/img1.jpg" alt="First image">
+													</div>
+												</div>
+												<div class=" image-box">
+													<div class="img-box img-box-second img-box-right">
+														<img class="" src="images/img2.jpg" alt="First image">
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -162,58 +177,62 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="subscribe">
-			<div class="subscribe-content">
-				<h2 class="subscribe-heading">Subscribe to us community</h2>
-				<form class="subscribe-form">
-					<div class="input-group subscribe-input-group">
-						<input type="email" name="email" class="form-control subscribe-input" placeholder="your e-mail">
-						<div class="input-group-append">
-							<button class="btn subscribe__button" type="button"><i class="fa fa-check"></i></button>
-						</div>
+				<div class="subscribe ">
+					<div class="subscribe-content">
+						<h2 class="subscribe-heading">Subscribe to us community</h2>
+						<form class="subscribe-form">
+							<div class="input-group subscribe-input-group">
+								<input type="email" name="email" class="form-control subscribe-input"
+									placeholder="your e-mail">
+								<div class="input-group-append">
+									<button class="btn subscribe__button" type="button"><i
+											class="fa fa-check"></i></button>
+								</div>
+							</div>
+						</form>
 					</div>
-				</form>
-			</div>
-		</div>
-		<div class="download">
-			<div class="container download-container">
-				<div class="download-content">
-					<h2 class="download-heading">Download it</h2>
-					<p class="download-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-						nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<div class="download-buttons">
-						<div class="btn-group first-button">
-							<button type="button" class="btn  button-left">Apple Store</button>
-							<button type="button" class="btn  button-right"><i
-									class="fa fa-apple"></i></button></button>
-						</div>
-						<div class="btn-group second-button">
-							<button type="button" class="btn  button-left">Play Store</button>
-							<button type="button" class="btn  button-right"><i
-									class="fa fa-android"></i></button></button>
+				</div>
+				<div class="download">
+					<div class="container download-container">
+						<div class="download-content">
+							<h2 class="download-heading">Download it</h2>
+							<p class="download-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+								do
+								eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis
+								nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<div class="download-buttons">
+								<div class="btn-group first-button">
+									<button type="button" class="btn  button-left">Apple Store</button>
+									<button type="button" class="btn  button-right"><i
+											class="fa fa-apple"></i></button></button>
+								</div>
+								<div class="btn-group second-button">
+									<button type="button" class="btn  button-left">Play Store</button>
+									<button type="button" class="btn  button-right"><i
+											class="fa fa-android"></i></button></button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+				<footer class="footer">
+					<div class="container footer-container">
+						<img src="images/logo-green.png" alt="Logo" class="footer-logo">
+						<ul class="footer-list">
+							<li><a href="#">Credits</a><span class="footer-span">|</span></li>
+							<li><a href="#">Privacy</a><span class="footer-span">|</span></li>
+							<li><a href="#">Our teams</a></li>
+						</ul>
+						<p class="footer-paragraph">copyright by phototime - all rights reserved</p>
+					</div>
+				</footer>
+			
 		</div>
-		<footer class="footer">
-			<div class="container footer-container">
-				<img src="images/logo-green.png" alt="Logo" class="footer-logo">
-				<ul class="footer-list">
-					<li><a href="#">Credits</a><span class="footer-span">|</span></li>
-					<li><a href="#">Privacy</a><span class="footer-span">|</span></li>
-					<li><a href="#">Our teams</a></li>
-				</ul>
-				<p class="footer-paragraph">From PSD to HTML by pk 2017</p>
-			</div>
-		</footer>
-	</div>
 
 
-	<script src="scripts.js"></script>
+		<script src="scripts.js"></script>
+
 
 
 
