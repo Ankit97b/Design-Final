@@ -1,3 +1,4 @@
+
  ul {
   list-style: none;
  }
@@ -162,8 +163,9 @@ ul.navbar-navig {
   padding-right: 16px;
   color: #ffffff;
 }
-  .social-link:hover, .social__link:focus {
-    color: #16a085; }
+  .social-link:hover, .social-link:focus {
+    color: #16a085; 
+  }
   .social-link .fa {
     transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
@@ -173,7 +175,7 @@ ul.navbar-navig {
 
 /* Photoapp */
 .photoapp {
-  height: 492px;
+ 
   margin-top:111px;
   margin-left: 128px; 
   width: 100%;
@@ -237,12 +239,11 @@ margin-top: 144px;
 /* Community */
 .community {
   width: 100%;
-  
   background-color: #f5f6f7; 
 }
 
 .community-container {
-  min-height: 485px;
+
   background: #ffffff;
 }
 
@@ -264,13 +265,8 @@ margin-top: 144px;
   max-width: 400px;
    }
 
-
-
-
 .community-arrow{
   margin-bottom: 5px;
-  
-
 }
 
 .community-arrow-right {
@@ -284,9 +280,6 @@ margin-top: 144px;
     float:right
     
   }
-
-
-
 
 
 .community-row {
@@ -309,8 +302,6 @@ margin-top: 144px;
     
   }
   .green-logo {
-    
-  
     padding-left: 54px;
     padding-right: 48px;
     padding-bottom: 31px;
@@ -396,13 +387,13 @@ margin-top: 144px;
     border: 2px solid #16a085; 
   }
 
-.subscribe__content {
+.subscribe-content {
 
   line-height: 30px;
   text-align: center; 
 }
 
-.subscribe__button {
+.subscribe-button {
   height: 60px;
   width: 63px;
   border-top-left-radius: 0;
@@ -461,9 +452,6 @@ margin-top: 144px;
 .second-button {
   margin-right: 50px; 
 }
-
-
- 
 
 .button-left {
   background-color: #1abc9c;
