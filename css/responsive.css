@@ -11,10 +11,7 @@
     background-color: #1abc9c;
     
   }
-
- 
-
-  .subscribe-button:hover {
+ .subscribe-button:hover {
     background-color: #1abc9c; 
   } 
 
@@ -22,29 +19,24 @@
   .nav-list {
     display:none; 
 }
-  .img-box-second {
-    position: static; }
-
-  .community-container {
-    padding: 50px 50px 80px 50px; }
+  
+.community-container {
+    padding: 50px 50px 80px 50px; 
+  }
 
   .community-box {
-    position: static; }
+    position: static; 
+  }
 
   .image-box-first {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+     
+  }
 
-  .carousel-col {
-    padding-left: 0;
-    padding-right: 0; }
+ .image-box {
+    width: 100%; 
+  }
 
-  .image-box {
-    max-width: 100%; }
-
-  .img-box {
-    max-width: 100%;
-    max-height: 100%; 
-  } 
 }
  
 
@@ -52,7 +44,6 @@
   .photoapp-container {
     width: 100%;
     background-image:none; 
-    
   }
  
 .photoapp {
@@ -62,36 +53,37 @@
   margin-top:71px;
   margin-right:18px;
  }
+
  .design-wrapper {
    margin-left:28px;
- 
-   
  }
+
 .design-container {
   width:100%;
 }
 .design-left-wrapper {
   display:none;
+}
+#design-left-design {
+  display:none;
+}
 
+#design-right-design {
+  display:none;
 }
 .design-content{
   margin-top:51px;
   width: 100%;
-  }
- .community-content {
-  float:left;
-  margin-left:128px;
-  margin-top:166px;
-  margin-right:81px;
 }
+ .community-carousel {
+   width:100%;
+ }
 
-
- .community-content {
+.community-content {
   float:left;
   margin-left:38px;
   margin-top:21px;
   margin-bottom:10px;
-  
 }
 .community-arrow {
   display:none;
@@ -101,11 +93,10 @@
     margin-bottom: 50px; 
   }
 
-  .community-carousel-item{
-    width:100%;
-  }
-
-  .subscribe {
+.row {
+      width:150%;
+}
+.subscribe {
     width:100%;
     margin-top:31px;
   }
@@ -183,6 +174,14 @@
 .design-left-wrapper {
   float:left;
   width:100%;
+}
+#design-left-design {
+  display:none;
+
+}
+#design-right-design {
+  display:none;
+
 }
 .design-content {
   float:right;
@@ -310,6 +309,3 @@
   } 
 
 }
-
-  
-   

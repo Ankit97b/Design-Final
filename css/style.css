@@ -1,5 +1,6 @@
 
- ul {
+
+ul {
   list-style: none;
  }
   .clearfix::after {
@@ -175,11 +176,10 @@ ul.navbar-navig {
 
 /* Photoapp */
 .photoapp {
- 
   margin-top:111px;
-  margin-left: 128px; 
+  margin-left: 128px;
   width: 100%;
-  background-color: #ffffff; 
+  background-color: #f5f6f7; 
 }
 
 .photoapp-container {
@@ -212,6 +212,9 @@ ul.navbar-navig {
 
 
 /* Design */
+.design-wrapper {
+  margin-left : 128px;
+}
 .design-left-image {
   float: left;
 }
@@ -228,11 +231,24 @@ ul.navbar-navig {
  line-height: 24px;
  color: #373737; 
 }
+.design-button {
+  display:block;
+  margin-bottom : 64px;
+}
 
 .design-container {
-margin-left:124px;
+
 margin-top: 144px;
 }
+#design-left-design{
+  padding-right: 10px;
+  font-size : 40px;
+}
+#design-right-design{
+  padding-right: 10px;
+  font-size : 40px;
+}
+
 
 
 
@@ -241,13 +257,6 @@ margin-top: 144px;
   width: 100%;
   background-color: #f5f6f7; 
 }
-
-.community-container {
-
-  background: #ffffff;
-}
-
-
 .carousel-col {
   padding-left: 64px;
   padding-right: 64px;
@@ -256,9 +265,7 @@ margin-top: 144px;
 .img-box {
   max-width: 371px;
   max-height: 243px;
-  
-  
- }
+}
 
 .image-box {
   padding-left: 24px;
@@ -267,7 +274,19 @@ margin-top: 144px;
 
 .community-arrow{
   margin-bottom: 5px;
+  float:right;
 }
+
+#design-left-community{
+  padding-right: 10px;
+  font-size: 40px;
+}
+
+#design-right-community{
+  padding-right: 10px;
+  font-size: 40px;
+}
+
 
 .community-arrow-right {
   margin-right: -5px;
@@ -549,4 +568,3 @@ margin-top: 144px;
     .footer-paragraph a:hover, .footer-paragraph a:focus {
       color: #16a085; 
     }
-
