@@ -233,7 +233,12 @@ ul.navbar-navig {
 }
 .design-button {
   display:block;
-  margin-bottom : 64px;
+  margin-bottom : 46px;
+}
+.design-counter {
+  display:block;
+  font-family: GothamRoundedBold;
+  font-size : 12px;
 }
 
 .design-container {
