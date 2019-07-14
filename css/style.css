@@ -264,77 +264,90 @@ margin-top: 144px;
 
 
 /* Community */
-.community {
+.community-wrapper {
   width: 100%;
-  background-color: #f5f6f7; 
+  background-color: #f5f6f7;
+}
+.community-content-wrapper{
+  
+  margin-left:128px;
+}
+.community-left-wrapper {
+  float: left;
+  padding-top:166px;
 }
 
-
-.img-box {
-  max-width: 371px;
-  max-height: 243px;
+.green-logo {
+  padding-left: 54px;
+  padding-right: 48px;
+  padding-bottom: 31px;
 }
-
-.image-box {
-  padding-left: 24px;
-  max-width: 400px;
-   }
-
-.community-arrow{
-  margin-bottom: 5px;
-  float:right;
-}
-
-#design-left-community{
-  padding-right: 10px;
-  font-size: 40px;
-}
-
-#design-right-community{
-  padding-right: 10px;
-  font-size: 40px;
-}
-
-.community-content {
-    float:left;
-    margin-left:128px;
-    margin-top:166px;
-    margin-right:81px;
-  }
-  .community-right-wrapper {
-    float:right;
-    margin-top:122px;
-    margin-right:128px;
-   
-    
-  }
-  .green-logo {
-    padding-left: 54px;
-    padding-right: 48px;
-    padding-bottom: 31px;
-  }
 
 .community-heading {
-  font-size: 16px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
- 
-  font-family: "Gotham--bold";
- 
-  color: #373737;
- }
-
-.community-paragraph {
-  font-size: 10px;
-  font-family: "Gotham--medium";
-  letter-spacing: 1px;
-  width: 145px;
-  margin: 0 auto;
-  margin-top: 26px;
-  line-height: 15px;
-  color: #373737; 
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-family: "Gotham--bold";
+color: #373737;
 }
 
+.community-paragraph {
+font-size: 10px;
+font-family: "Gotham--medium";
+letter-spacing: 1px;
+width: 145px;
+margin: 0 auto;
+margin-top: 26px;
+line-height: 15px;
+color: #373737; 
+}
+.community-right-wrapper{
+  float: right;
+  margin-right:128px;
+}
+
+.community-carousel-container{
+  padding-top:116px;
+}
+.community-arrow {
+  margin-top:66px;
+  margin-bottom: 5px;
+  float: right;
+}
+#arrow-left-community{
+  font-size: 40px;
+  margin-right: 10px;
+}
+#arrow-right-community{
+  font-size: 40px;
+}
+.community-carousel-left{
+  float: left;
+  max-width: 370px;
+  overflow: hidden;
+
+}
+.community-carousel-right{
+  float: right;
+  margin-left: 24px;
+  max-width: 370px;
+  overflow: hidden;
+
+}
+
+.carousel-container-left{
+  display: flex;
+}
+
+.community-carousel-right{
+  max-width: 370px;
+  overflow: hidden;
+
+}
+
+.carousel-container-right{
+  display: flex;
+}
 
 /* Subscribe */
 .subscribe {
