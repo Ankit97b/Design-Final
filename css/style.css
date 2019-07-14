@@ -1,5 +1,4 @@
 
-
 ul {
   list-style: none;
  }
@@ -48,10 +47,10 @@ a {
 .navbar .navbar-nav .nav-link {
   text-transform: uppercase;
   font-family: "Gotham--bold";
-  color: #ffffff;
   font-size: 16px;
   letter-spacing: 3px;
   transition: color 0.5s; 
+  color: #ffffff;
 }
   .navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover {
     
@@ -106,41 +105,39 @@ ul.navbar-navig {
 
 .head-middle-heading {
   margin-bottom:20px; 
-  color: #ffffff;
+  font-family: "Gotham--bold";
   font-size: 36px;
   letter-spacing: 5px;
-  font-family: "Gotham--bold";
-  text-transform: uppercase; 
+  text-transform: uppercase;
+  color: #ffffff; 
 }
 
 .head-middle-paragraph {
-  color: #ffffff;
+  font-family: "Gotham--medium";
   letter-spacing: 2.5px;
   font-size: 16px;
-  font-family: "Gotham--medium";
   margin-bottom: 30px; 
+  color: #ffffff;
 }
 
 .button {
-  background-color: #16a085;
   border: none;
   height: 49px;
   width: 192px;
   padding: 0;
-  color: #ffffff;
   text-transform: uppercase;
   font-family: "Gotham--bold";
   font-size: 12px;
   letter-spacing: 2px;
   border-radius: 4px;
-  
-   
-   }
+  background-color: #16a085;
+  color: #ffffff;
+ }
 
-.button:focus {
+.button:hover {
   outline: 1px solid transparent;
   background-color: #1abc9c;
-   }
+ }
 
 .head-button {
   width: 166px;
@@ -156,9 +153,9 @@ ul.navbar-navig {
 
 .icons-content {
   font-size: 20px;
-  color: #ffffff;
   margin: 0 8px;
-  transition: color 0.5s; 
+  transition: color 0.5s;
+  color: #ffffff; 
 }
 .social-link {
   padding-right: 16px;
@@ -189,16 +186,14 @@ ul.navbar-navig {
   background-position: right -150px;
 }
 
-
- 
 .heading {
   font-family: "Gotham--bold";
-  color: #16a085;
   font-size: 18px;
   letter-spacing: 3px;
   text-transform: uppercase;
   max-width: 390px;
   line-height: 22px; 
+  color: #16a085;
 }
 
 .photoapp-paragraph {
@@ -215,8 +210,19 @@ ul.navbar-navig {
 .design-wrapper {
   margin-left : 128px;
 }
-.design-left-image {
-  float: left;
+.carousel-container{
+  
+  width:25.65%;
+  overflow: hidden;
+  display: inline-block;
+
+
+}
+.carousel-slide {
+  
+  
+  display: flex;
+  
 }
 .design-content {
   float:right;
@@ -237,7 +243,7 @@ ul.navbar-navig {
 }
 .design-counter {
   display:block;
-  font-family: GothamRoundedBold;
+  font-family: "GothamRoundedBold";
   font-size : 12px;
 }
 
@@ -262,10 +268,7 @@ margin-top: 144px;
   width: 100%;
   background-color: #f5f6f7; 
 }
-.carousel-col {
-  padding-left: 64px;
-  padding-right: 64px;
- }
+
 
 .img-box {
   max-width: 371px;
@@ -292,27 +295,7 @@ margin-top: 144px;
   font-size: 40px;
 }
 
-
-.community-arrow-right {
-  margin-right: -5px;
-  margin-left: 5px;
-  
-}
-  .community-arrow-left{
-    margin-right: -5px;
-    margin-left: 5px;
-    float:right
-    
-  }
-
-
-.community-row {
-  width: 100%;
-  
-  margin-left: 0; 
-}
-
-  .community-content {
+.community-content {
     float:left;
     margin-left:128px;
     margin-top:166px;
@@ -420,8 +403,6 @@ margin-top: 144px;
 .subscribe-button {
   height: 60px;
   width: 63px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
   background-color: #16a085;
   cursor: pointer; 
 }
@@ -566,10 +547,4 @@ margin-top: 144px;
   letter-spacing: 2px;
   margin-top: 26px; 
 }
-  .footer-paragraph a {
-    text-decoration: none;
-    color: #373737;
-    transition: color 0.5s; }
-    .footer-paragraph a:hover, .footer-paragraph a:focus {
-      color: #16a085; 
-    }
+  

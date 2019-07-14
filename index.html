@@ -23,31 +23,29 @@
 		<header class="header">
 
 			<div class="navbar navbar-expand-lg  nav">
-				<div class="container">
+                <div class="navigation">
+					<ul class="navbar-nav nav-list">
+						<li class="nav-item ">
+							<a class="nav-link nav-link-home" href="#" title="Home">home</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link  nav-link-photo" href="#" title="PhotoApp">photoapp</a>
+						</li>
+						<li class="nav-item nav-item-logo">
+							<a class="nav-link nav-link nav-link-logo" href="nav-header" title="Phototime">
+								<img src="images/logo.png" alt="Phototime">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link  nav-link-design" href="#" title="Design">design</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link nav-link-download" href="#" title="Download">download</a>
+						</li>
 
-					<div class="navigation">
-						<ul class="navbar-nav nav-list">
-							<li class="nav-item ">
-								<a class="nav-link nav-link-home" href="#" title="Home">home</a>
-							</li>
-							<li class="nav-item ">
-								<a class="nav-link  nav-link-photo" href="#" title="PhotoApp">photoapp</a>
-							</li>
-							<li class="nav-item nav-item-logo">
-								<a class="nav-link nav-link nav-link-logo" href="nav-header" title="Phototime">
-									<img src="images/logo.png" alt="Phototime">
-								</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link  nav-link-design" href="#" title="Design">design</a>
-							</li>
-							<li class="nav-item ">
-								<a class="nav-link nav-link-download" href="#" title="Download">download</a>
-							</li>
-
-						</ul>
-					</div>
+					</ul>
 				</div>
+
 			</div>
 
 
@@ -80,11 +78,15 @@
 		</div>
 		<div class="design-wrapper">
 			<div class="design-container container clearfix">
-				<div class="design-left-wrapper">
-					<div class="design-left-image ">
+				<div class="carousel-container">
+					<div class="carousel-slide ">
+						<img src="images/phone3.png" class="green-phone" alt="Iphone" id="lastClone">
 						<img src="images/phone1.png" class="green-phone" alt="Iphone">
+						<img src="images/phone2.png" class="green-phone" alt="Iphone">
+						<img src="images/phone3.png" class="green-phone" alt="Iphone">
+						<img src="images/phone1.png" class="green-phone" alt="Iphone" id="firstClone">
 					</div>
-					
+
 				</div>
 				<div class="design-content">
 					<h2 class="heading design-heading">Design</h2>
@@ -95,17 +97,12 @@
 						ex ea commodo consequat.
 					</p>
 					<button class="design-button button">Learn More</button>
-					<span class= "design-counter">01/05</span>
+					<span class="design-counter">01/05</span>
 
 					<i id="design-left-design" class="fa fa-angle-left "></i>
-							
+
 					<i id="design-right-design" class="fa fa-angle-right "></i>
-
-					 
-
-				
-
-				</div>
+                </div>
 			</div>
 		</div>
 
@@ -130,43 +127,37 @@
 					<div class="community-right-wrapper clearfix">
 						<div class="community-arrow clearfix ">
 
-								<i id="design-left-community" class="fa fa-angle-left "></i>
-		
-								<i id="design-right-community" class="fa fa-angle-right "></i>
+							<i id="design-left-community" class="fa fa-angle-left "></i>
 
-							
-							
+							<i id="design-right-community" class="fa fa-angle-right "></i>
+
+
+
 						</div>
 						<div id="carouselCommunityControls" class="carousel slide community-carousel">
 							<div class="carousel-inner">
-								<div class="carousel-item community-carousel-item active">
+								
 									<div class="row">
-										<div class=" image-box image-box-first">
-											<div class="img-box img-box-first">
+										<div class=" image-box image-box-first community-carousel-wrapper">
+											<div class="img-box img-box-first community-carousel-slider">
+												<img src="images/img2.jpg" alt="First image" id="lastClone">
 												<img src="images/img1.jpg" alt="First image">
+												<img src="images/img2.jpg" alt="First image">
+												<img src="images/img1.jpg" alt="First image" id="firstClone">
 											</div>
 										</div>
 										<div class=" image-box">
 											<div class="img-box img-box-second">
+												<img src="images/img1.jpg" alt="First image">
 												<img src="images/img2.jpg" alt="First image">
+												<img src="images/img1.jpg" alt="First image">
+												<img src="images/img2.jpg" alt="First image">
+
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="carousel-item community-carousel-item">
-									<div class="row">
-										<div class=" image-box image-box-first">
-											<div class="img-box img-box-right">
-												<img class="" src="images/img1.jpg" alt="First image">
-											</div>
-										</div>
-										<div class=" image-box">
-											<div class="img-box img-box-second img-box-right">
-												<img class="" src="images/img2.jpg" alt="First image">
-											</div>
-										</div>
-									</div>
-								</div>
+								
+								
 							</div>
 						</div>
 					</div>
@@ -198,13 +189,11 @@
 					<div class="download-buttons">
 						<div class="btn-group first-button">
 							<button type="button" class="btn  button-left">Apple Store</button>
-							<button type="button" class="btn  button-right"><i
-									class="fa fa-apple"></i></button>
+							<button type="button" class="btn  button-right"><i class="fa fa-apple"></i></button>
 						</div>
 						<div class="btn-group second-button">
 							<button type="button" class="btn  button-left">Play Store</button>
-							<button type="button" class="btn  button-right"><i
-									class="fa fa-android"></i></button>
+							<button type="button" class="btn  button-right"><i class="fa fa-android"></i></button>
 						</div>
 					</div>
 				</div>
@@ -226,6 +215,8 @@
 
 
 	<script src="scripts.js"></script>
+	<script src="double.js"></script>
+	<script src="community.js"></script>
 
 
 

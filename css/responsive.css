@@ -61,7 +61,7 @@
 .design-container {
   width:100%;
 }
-.design-left-wrapper {
+.carousel-container {
   display:none;
 }
 #design-left-design {
@@ -171,9 +171,9 @@
     margin-right:18px;
   
   }
-.design-left-wrapper {
-  float:left;
-  width:100%;
+.carousel-container {
+  display: none;
+  
 }
 #design-left-design {
   display:none;
