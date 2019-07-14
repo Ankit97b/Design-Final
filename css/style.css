@@ -1,21 +1,11 @@
 
-ul {
-  list-style: none;
- }
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-a {
-  text-decoration: none;
- }
 
 .container {
   max-width: 1280px;
   padding: 0; 
  
 }
+
 .whole-container {
   width:100%;
   overflow-x: hidden;
@@ -41,56 +31,52 @@ a {
   min-height: 100vh;
   background-image: url(../images/background_header.gif);
   background-size: cover;
-  background-position: center bottom; }
+  background-position: center bottom; 
+}
 
 /* --> Navigation */
-.navbar .navbar-nav .nav-link {
+  .navigation-link {
   text-transform: uppercase;
   font-family: "Gotham--bold";
   font-size: 16px;
   letter-spacing: 3px;
   transition: color 0.5s; 
   color: #ffffff;
+ 
 }
-  .navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover {
+.navigation-link a {
+  text-decoration: none;
+}
+  .navigation-link:hover {
     
     color: #16a085; 
   }
-ul.navbar-navig {
-  display: inline-block;
+.unordered-navigation{
+  display: flex;
+  color: #16a085; 
 }
  .navigation {
+  
    margin-left:272px;
    margin-right:249px;
  }
- .navigation-container {
-   max-width:1280px;
+ .navigation-link-photo {
    
- }
-
-
-.nav-link {
-  margin-top: 73px; 
- 
-}
-
-
-.nav-link-photo {
   margin-left:67px; 
 
 }
-
-
-
-.nav-link-logo {
+.navigation-link-logo {
   margin-top: 40px;
   margin-left: 102px;
   margin-right: 98px;
  }
 
-
-.nav-link-design {
+.navigation-link-design {
   margin-right: 80px; 
+  
+}
+.navigation-item {
+  padding-top: 73px;
 }
 
 /* --> Head-middle*/
@@ -181,7 +167,6 @@ ul.navbar-navig {
 
 .photoapp-container {
   background-image: url(../images/iPhone.png);
-  height: 100%;
   background-repeat: no-repeat;
   background-position: right -150px;
 }
@@ -215,19 +200,14 @@ ul.navbar-navig {
   width:25.65%;
   overflow: hidden;
   display: inline-block;
-
-
 }
 .carousel-slide {
-  
-  
-  display: flex;
+   display: flex;
   
 }
 .design-content {
   float:right;
-  padding-right:81px;
-}
+  margin-right:81px;}
 
 .design-paragraph {
  margin-top: 44px;
@@ -431,7 +411,7 @@ color: #373737;
   text-align: center;
   min-height: 396px;
  text-align:center; 
- background: #ffffff;
+ 
  margin-top:90px;
 }
 
@@ -544,7 +524,7 @@ color: #373737;
     transition: color 0.5s; }
     .footer__list li a:hover, .footer__list li a:focus {
       color: #16a085; 
-    }
+ }
 
 .footer-link {
   font-family: "Gotham--bold";

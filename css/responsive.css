@@ -24,9 +24,7 @@
     padding: 50px 50px 80px 50px; 
   }
 
-  .community-box {
-    position: static; 
-  }
+  
 
   .image-box-first {
     margin-bottom: 20px;
@@ -41,6 +39,9 @@
  
 
 @media (max-width: 991px) {
+  .navigation-link {
+    display: none;
+  }
   .photoapp-container {
     width: 100%;
     background-image:none; 
@@ -50,12 +51,16 @@
   width:100%;
   float: left;
   margin-left:38px;
-  margin-top:71px;
+  padding-left:138px;
+  padding-top:31px;
+  padding-bottom:31px; 
+  margin-top:31px;
   margin-right:18px;
  }
 
  .design-wrapper {
-   margin-left:28px;
+   margin-left:40px;
+   padding-left:138px;
  }
 
 .design-container {
@@ -73,29 +78,44 @@
 }
 .design-content{
   margin-top:51px;
+  margin-right: 0px; 
   width: 100%;
 }
- .community-carousel {
-   width:100%;
- }
-
-.community-content {
-  float:left;
-  margin-left:38px;
-  margin-top:21px;
-  margin-bottom:10px;
+.community-content-wrapper {
+  margin-left: 40px;
 }
+.community-carousel {
+  width:100%;
+}
+.community-left-wrapper{
+  margin-top:51px; 
+  padding-top:0px; 
+  margin-left:272px;
+  
+
+}
+.community-carousel-left{
+  max-width:330px;
+  margin-bottom: 0px;
+}
+
+
+
 .community-arrow {
-  display:none;
+  margin-top:20px;
+}
+.community-carousel-container {
+  padding-top:80px;
+  width:130%;
+}
+.community-carousel-right {
+  max-width:330px;
+  margin-left:0px;
+  margin-right:60px;
 }
 
-  .community-box {
-    margin-bottom: 50px; 
-  }
 
-.row {
-      width:150%;
-}
+
 .subscribe {
     width:100%;
     margin-top:31px;
@@ -110,6 +130,9 @@
     padding-top: 250px;
     padding-left: 304px;
     padding-right: 304px;
+   }
+   .download-paragraph {
+     width:100%;
    }
   .first-button {
     margin-right: 50px;
@@ -133,6 +156,10 @@
   }
 
 @media (max-width: 767px) {
+  .unordered-navigation {
+
+    display: none;
+  }
   .button:focus {
     outline: 1px solid transparent;
     background-color: #1abc9c;
@@ -157,45 +184,61 @@
   .photoapp {
     width:100%;
     float: left;
-    margin-left:38px;
+    padding-left:10px;
     margin-top:51px;
-    margin-right:38px;
-    
-    
   }
-  
-  .design-container {
+  .design-wrapper {
+  margin-left:-100px;  
+  }
+ 
+ .design-container {
+   width:100%;
+ }
+ .carousel-container {
+   display:none;
+ }
+ #design-left-design {
+   display:none;
+ }
+ 
+ #design-right-design {
+   display:none;
+ }
+ .design-content{
+   margin-top:51px;
+   width: 100%;
+   margin-right:0px;
+ }
+  .community-carousel {
     width:100%;
-    margin-left:18px;
-    
-    margin-right:18px;
-  
   }
-.carousel-container {
-  display: none;
+  .community-left-wrapper{
+    margin-top:51px; 
+    margin-left:0px;
+    padding-top:0px; 
+    
+
+  }
+  .community-right-wrapper {
+    margin-right:40px;
+  }
+  .community-arrow {
+    margin-top:20px;
+  }
+  .community-carousel-container {
+    padding-top:80px;
+    width: 100%;
+  }
+  .community-carousel-right {
+    max-width: 370px;
+    
+  }
+  .community-carousel-left {
+    margin-bottom: 10px;
+    max-width: 370px;
+    
+  }
   
-}
-#design-left-design {
-  display:none;
-
-}
-#design-right-design {
-  display:none;
-
-}
-.design-content {
-  float:right;
-  width: 100%;
-}
-.design-content{
-  margin-top:51px;
-}
-.community-content {
-  margin-bottom: 20px;
-}
-.community-right-wrapper {
-  margin-top:51px;
-}
 .subscribe {
   width:100%;
   margin-top:51px;
