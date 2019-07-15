@@ -56,9 +56,9 @@
   color: #16a085; 
 }
  .navigation {
-  
-   margin-left:272px;
-   margin-right:249px;
+  text-align: center;
+  width: 768px;
+  margin: 0 auto;
  }
  .navigation-link-photo {
    
@@ -249,12 +249,13 @@ margin-top: 144px;
   background-color: #f5f6f7;
 }
 .community-content-wrapper{
-  
-  margin-left:128px;
+  margin: 0 auto;
+  max-width: 1280px;
 }
 .community-left-wrapper {
   float: left;
   padding-top:166px;
+  margin-left: 128px;
 }
 
 .green-logo {
@@ -521,10 +522,9 @@ color: #373737;
     text-transform: uppercase;
     color: #373737;
     letter-spacing: 2px;
-    transition: color 0.5s; }
-    .footer__list li a:hover, .footer__list li a:focus {
-      color: #16a085; 
- }
+    transition: color 0.5s; 
+  }
+  
 
 .footer-link {
   font-family: "Gotham--bold";
